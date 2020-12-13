@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import Todo from './Todo' 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Foo from './Compo'
+import FbNav from './fbnav'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Todo/> */}
+    <FbNav/>
+    <Foo/>
   </React.StrictMode>,
   document.getElementById('root')
 );
